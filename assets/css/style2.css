@@ -22,6 +22,7 @@ body {
 
 }
 
+
 #contact {
 
 	padding-left: 25px;
@@ -37,12 +38,6 @@ body {
 
 
   } 
-
-#para {
-
-	color: #777777;
-
-}
 
 #linkedin {
 
@@ -93,13 +88,16 @@ body {
 	background-color: #ffffff;
 	padding-left: 50px;
 	padding-right: 50px;
+	padding-bottom: 50px;
 	width: 500px;
 	border: 1px solid #dddddd;
 	margin-left: 150px;
 	margin-top: 50px;
 
 
+
 }
+
 
 .connect {
 
@@ -114,15 +112,9 @@ body {
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: center;
-	font-family: 'Georgia', Times, Times New Roman, serif;	
+	font-family: 'Georgia', Times, Times New Roman, serif;
 
-}
-
-.connect a {
-	text-decoration: none;
-}
-
-
+}		
 
 
 
@@ -131,14 +123,26 @@ h2 {
 	background-color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 
+}
+
+h3 {
+
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
 
 
 }
 
 a {
-
+	
 	text-decoration: none;
 }
+
+input {
+
+	height: 20px;
+}
+
 
 footer {
 	
@@ -150,6 +154,19 @@ footer {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: white;
 	margin-top: 150px;
-	position: relative;
+
+}
+
+
+.button {
+
+	background-color: #4aaaa5;
+	border: 1px solid #cccccc;
+	margin-top: 20px;
+	padding: 20px 40px 40px 40px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
